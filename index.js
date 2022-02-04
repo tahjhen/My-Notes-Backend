@@ -46,7 +46,7 @@ const PostToDo = mongoose.model("ToDo", toDoSchema);
 //**********************************************
 //Routes
 app.get("/", (req, res) => {
-  res.send("MY NOTES API");
+  res.send("MY NOTES API - BACKEND");
 });
 
 // Handle Posts ******************************
